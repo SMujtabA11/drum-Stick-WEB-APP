@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("./cody-scott-milewski-aCnkRlBD0i4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;   
+}
+#parent-div{
+    width: auto;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+button>img:hover{
+   filter: drop-shadow(2px 4px 20px red);
+
+}
+
+/* button:nth-child(1)::before{
+    content:"bassdrum";
+    color: red;
+        
+} */
